@@ -1,3 +1,4 @@
+import java.util.*;
 class CalculateProfit {
     public static void main(String[] args) {
         // Declare variables
@@ -9,7 +10,7 @@ class CalculateProfit {
         double profitPercentage = (profit / costPrice) * 100;
 
         // Display the result
-        System.out.println("The Cost Price is: " + costPrice + " and Selling Price is: " + sellingPrice + "\n" +
+        System.out.println("The Cost Price is: " +costPrice + " and Selling Price is: " + sellingPrice + "\n" +
                            "The Profit is: " + profit + " and the Profit Percentage is " + profitPercentage + "%");
     }
 }

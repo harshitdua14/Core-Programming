@@ -9,7 +9,9 @@ public class ReverseNumber {
         long number = scanner.nextLong();
 
         // Array to store digits
-        int[] digits = new int[20];
+        String str=Double.toString(number);
+        int len=str.length();
+        int[] digits = new int[len-1];
         int index = 0;
 
         // Extract digits
@@ -22,7 +24,7 @@ public class ReverseNumber {
         // Display digits in reverse order
         System.out.print("Reversed Number: ");
         for (int i = 0; i < index; i++) {
-            System.out.print(digits[i]);
+            System.out.print(digits[i]+" ");
         }
 
         scanner.close();
