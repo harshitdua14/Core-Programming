@@ -43,5 +43,6 @@ class OddEvenNumbers {
             System.out.print(evenNumbers[i] + " ");
         }
         System.out.println();
+        input.close();
     }
 }

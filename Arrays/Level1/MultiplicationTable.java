@@ -22,5 +22,6 @@ class MultiplicationTable {
         for (int i = 0; i < table.length; i++) {
             System.out.println(number + " * " + (i + 1) + " = " + table[i]);
         }
+        input.close();
     }
 }
